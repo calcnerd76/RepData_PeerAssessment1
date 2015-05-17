@@ -9,7 +9,7 @@ Show any code that is needed to
 
 
 ```r
-data <- data.frame(read.csv("C:/Users/T. Rhyker Benavidez/Desktop/Biostatistics/JH Coursera/reproducible research/Activity.csv",header=TRUE,na.strings = "NA",colClasses=c("numeric","character","numeric")))
+data <- data.frame(read.csv("Activity.csv",header=TRUE,na.strings = "NA",colClasses=c("numeric","character","numeric")))
 ```
 
 #What is the mean total number of steps taken per day?
